@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MA PREMIERE PAGE</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="INDEX.css">
+       
+    </head>
+    <body>
+        <!--Le texte en HTML, les titres et les paragraphes-->
+        <!--les titres 6(h=heading en angalis et paragraphes p pour paragraphe-->
+        <h1> niveau 1</h1>
+         <p>Paragrphe</p>
+        <h3>niveau 3</h3>
+        <h4>niveau 4</h4>
+        <h5>niveau 5</h5>
+        <h6>niveau 6</h6>
+        <p> Un premier paragrphe</p>
+        <p> Deuxième paragrphe</p>
+        
+       
+        <!--espace et retour à la ligne, l'utilisation de br, 
+        hr(travaille avec ligne  de séparation), pre-->
+        <p> Un premier <br> paragraphe</p>
+        <p>html : le deuxième paragraphe le <hr> html est un langage de</p>
+
+        <pre>
+        html : le deuxième paragraphe
+            le html est un langage de structure
+        css : le css est un 
+            langage de style
+        </pre>
+
+        <!-- Degré d'importance des texte : strong, em et également mark-->
+        <p>Un pragraphe avec une <strong> partie très importante</strong></p>
+        <p> Un pragraphe avec une <em>partie relativement importante</em></p>
+        <p> Un pragraphe <mark> avec un élement marqué</mark></p>
+
+
+        <!--l'utilisation de liste, ul : non ordonée, ol : ordonnée,
+        li : élélent de la liste, L'atribut type pour changer la numérotataion -->
+
+        <ul>
+            <li> Connard</li>
+            <li> Putain</li>
+            <li> La merde</li>
+            <li> Salaud </li>
+        </ul>
+        <ol type="a"> 
+            <LI>Introduction</LI>
+            <LI> PARTIE I</LI>
+            <LI> PARTIE II</LI>
+            <LI> PARTIE III</LI>
+        </ol>
+
+        <!-- dl : li de déstrption, dt : déscription terme, 
+        et dd : déscription en soit, c'est la définition-->
+
+        <dl>
+            <dt>HTML</dt>
+            <dd>HTML signifie hyperTexte markup languange </dd>
+        </dl>
+
+        <!--Les listes imbrication-->
+        <ol>
+            <li> PARTIE 1
+                <ul> Définitions</ul>
+                <ul> Auteurs</ul>
+                <ul> Exemples
+                    <ol> Jour 
+                        <ul> Le jour </ul>
+                        <ul> La nuit </ul>
+                    </ol>
+                    <ol> Lumière </ol>
+                    <ol> La lune </ol>
+                    <ol>Le soleil</ol>
+                </ul>
+            </li>
+            <li> PARTIE 2</li>
+            <li> PARTIE 3</li>
+        </ol>
+
+        <!--Les liens en HTML : interne et externe, compréndre l'interêt de l'attribut taget-->
+
+        <!-- Liens externe -->
+         <p> Cliquez <a href="">ici pour plus</a> d'information</p>
+
+        <!--Liens externe 3 cas,  target pour ouvrire un autre onglet dansla navigation-->
+           
+        <h1>Page de départ </h1>
+        <p>Liens vers la <a href="milieu.html" target="_blank">page milieu</a></p>
+        <p> Liens vers la <a href="sous/sous.html"> page sous</a></p>
+        <p> Liens vers la <a href="../parent.html">page parent</a></p>
+
+        <!--liens ancre pour le déplacement dans la page--->
+        <p> Les ancres en HTML</p>
+        <P> Accès direct à notre <a href="#ancre1">ancre1</a></P>
+        <P> Accès direct à notre <a href="#ancre2">ancre2</a></P>
+        <p><br>s<br><br><br><br><br><br>e<br><br><br><br><br><br>n<br><br><br><br><br><br>g<br><br></p>
+        <p><br>s<br><br><br><br><br><br>e<br><br><br><br><br><br>n<br><br><br><br><br><br>g<br><br></p>
+        <p><br>s<br><br><br><br><br><br>e<br><br><br><br><br><br>n<br><br><br><br><br><br>g<br></p>
+        <p id="ancre1"> Une première ancre</p>
+        <p><br>s<br><br><br><br><br><br>e<br><br><br><br><br><br>n<br><br><br><br><br><br>g<br><br></p>
+        <p><br>s<br><br><br><br><br><br>e<br><br><br><br><br><br>n<br><br><br><br><br><br>g<br><br></p>
+        <p><br>s<br><br><br><br><br><br>e<br><br><br><br><br><br>n<br><br><br><br><br><br>g<br></p>
+        <p id="ancre2"> Une deuxième ancre</p>
+
+        <!--liens pour le email--->
+        <p> M'envoyer <a href="mailto:ayineemmanuel275@gmail.comm"> un email</a></p>
+
+        <!--Téléchargement un doc downloard récement créer,mais nous utilisons ici
+        tout simplement indiqué le chemin du fichier--->
+        <p>Télécharger <a href="TP#.pdf">mon dossier</a></p>
+
+        <!--Insertion des images? on peaux aussi chercher une image dur le net puis
+        on copie tout simplement le chemin --->
+        <p> C'est la photo de Marketing</p>
+        <img src="phot.png" alt="photO busness">
+        <p> Ici c'est un paragraphe </p>
+
+
+        <!-- Les entitées HTML,&lt;br&gt; pour lire br par exemple, &amp pour le et,
+        &nbsp; pour mettre  de l'espace dans un texte-->
+
+        <p> Je suis un paragraphe </p>
+        <p> L'élément br s'écrit ceci : &lt;br&gt; </p>
+        <p> je suis un &amp; deuxième para</p>
+        <p> never &nbsp;&nbsp; give up</p>
+        
+        <!-- CSS. Selecteurs : pour cibler un élément HTML; il y a les simples et les complexes 
+        propiétés : pour choisir le style ex : couleur,
+
+        Attriut id et classe
+        ID : Chaque ID doit avoir une valeur unique mais
+        Classe : +sieurs clsses peuvent avoir la même valeurs-->
+
+        <p id="p1"> Le premier paragraphe</p>
+        <p class="p1"> Le deuxième paragrphe </p>
+        <p class="p1" id="para"> Le troisième paragrphe </p>
+
+        <!--Elément de type block et inline-->
+
+        <p id="p2">Je suis un élément <strong>type block</strong></p>
+
+        <!--Div (type block)et span (type inline)-->
+        <p> Div et Span</p>
+        <div class="div-para">
+            <p>L'élément p est un élément de type block</p>
+            <p>Un <strong>autre </strong>paragraphe </p>
+            <p>C'est <span class="span1">exactement la même</span> chose</p>
+        </div>
+        <!--différence avec le précedent ci-haut-->
+        <p>Un toisième paragraphe</p>
+        
+         <!--Font-family et Goole fonts-->
+        <p>Fonts family</p>
+        <p id="p3"> Lorem ipsum, dolor sit amet consectetur adipisicing c'est porquoi tout <br>
+            le monde ne sont pas comme l'on ne oense vraiment et apprenez <br>
+            a respecter es uns chers frres et sours en christ, chers ammis nous sommes <br>
+            tous les venant dans ce monde alors ce qui nous donne envie de pursuivre</p>
+        
+        <!--font size, font style et font weight-->
+        <p>Les propriétés css de type font</p>
+        <p id="p4"> Lorem ipsum, dolor sit amet consectetur adipisicing c'est porquoi tout <br>
+            le monde ne sont pas comme l'on ne oense vraiment et apprenez <br>
+            a respecter es uns chers frres et sours en christ, chers ammis nous sommes <br>
+            tous les venant dans ce monde alors ce qui nous donne envie de pursuivre</p>
+        
+        <!--Couleur et opacyté-->
+        <p>Gestion de la couleur</p>
+        <p class="p2"> Le deuxième paragrphe </p>
+
+        <!--Propétés text-->
+        <p class="p3"> Propétés text </p>
+        <p class="p4"> Paragraphe 1 </p>
+        <p class="p5"> Paragraphe 2 </p>
+        <p class="p6"> Paragraphe 3 </p>
+        <p>Un lien vers mon <a href="htpp//ayineemmanuel.com" id="a1">site</a></p>
+        
+        <!-- Espace : line height, letter spacing et word spacing-->
+        <p class="p7"> first paragraphe of spacing </p>
+        <p class="p8"> second paragraphe of spacing </p>
+        
+        <!--boite en css, width, height, padding, border, et margin*/-->
+        <div class="div1">
+            <p> Le model de boite </p>
+            <p class="p9"> first paragraphe of spacing </p>
+            <p class="p10"> second paragraphe of spacing </p>
+        </div>
+
+        <div class="div2">
+            <p> Le model de boite </p>
+            <p class="p11"> first paragraphe of spacing </p>
+            <p class="p12"> second paragraphe of spacing </p>
+        </div> <br>
+
+        <!--bordure en Css-->
+        <!--Marge interieures et extérieurs, padding et marging-->
+        <div class="div3">
+            <p> Le model de boite </p>
+            <p class="p13"> first paragraphe of spacing </p>
+        </div>
+        <!--bordure en Css-->
+        <!--display inline, inline box, non et block-->
+        <div class="div4">
+            <p> Le model de boite </p>
+            <p class="p14"> first paragraphe of spacing </p>
+        </div>
+        <!--Float, clearet overflow-->
+        <!--Position et z-indexw-->
+        
+        <p id="ggg"> Position et z-index </p>
+        <div class="div5">
+            <p class="p15"> first paragraphe <br>with many <br>contenu </p>
+            <p class="p16">Un deuxième paragrahe </p> 
+        </div>
+        <!--Margin, position et float-->
+        <p id="ggg"> Margin, position et float </p>
+        <div class="div6">
+            <p class="p17"> first paragraphe <br>with many <br>contenu </p>
+        </div>
+
+         <p id="ggg"> Margin, position et float </p>
+        <div class="div7">
+            <p class="p18">Un deuxième paragrahe </p> 
+        </div><br><br>
+
+
+        <p>LES TABLEAUX</p> <br><br>
+            <table class="mp">
+                    <tr>
+                        <th>Nom</th>
+                        <th>Prénom</th>
+                        <th>Age</th>
+                    </tr>
+                    <tr class="paire">
+                        <td>Pierre</td>
+                        <td>Emma</td>
+                        <td>25</td>
+                    </tr>
+                    <tr class="impaire">
+                        <td>Joly</td>
+                        <td>Pauline</td>
+                        <td>24</td>
+                    </tr>
+            </table><br><br>
+            <table class="mp1">
+                <thead>
+                    <tr>
+                        <th>Mois</th>
+                        <th>Dépense</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <td>SOMME</td>
+                        <td>1350€</td>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <td>Mars</td>
+                        <td>380€</td>
+                    </tr>
+                </tbody>
+            </table><br><br>
+            <table>
+                <tr>
+
+                    <th colspan="3">Prenom</th>
+                    <th colspan="2">Adresse email</th>
+                </tr>
+                <tr>
+                    <td>Pierre</td>
+                    <td colspan="2">Victor</td>
+                    <td colspan="2">pierre.giraud@edhec.com</td>
+                </tr>
+                <tr>
+
+                    <td>Pauline</td>
+                    <td>Julia</td>
+                    <td>Jeanne</td>
+                    <td>paulinej@gmail.com</td>
+                    <td>p.joly@gmail.com</td>
+                </tr>
+            </table><br><br>
+            <figure>
+                <img src="hhh.jpg" alt="Hacher" id="SS"></div>
+                <figcaption>image hacker</figcaption>
+            </figure>
+                <p> medias</p>
+                  <audio controls="controls" loop="loop" autoplay="autoplay">
+                    <source src="c'est ne pas la fin.mp3">
+                        <source src="c'est ne pas la fin.Wav">
+                  </audio>
+                  <video controls="contols" poster="digitale-hacker-mobile.jpg">
+                        <source src="how are you my freind.mp4">
+                        <source src="how are you my freind.ogg">
+                         il serait temps de mettre notre navigateur à jour
+                  </video>
+    </body>
+</html>
