@@ -1,0 +1,256 @@
+/*Je suis un commentaire*/
+
+/*Je shis 
+ *un commentaire 
+multi ligne*/
+
+/*Attriut id et classe*/
+
+body{
+    background-color: aliceblue;
+
+}
+
+#p1{
+    color: rgb(221, 10, 63) ;
+}
+
+.p1{
+    color: rgb(38, 22, 212);
+}
+
+
+#para{
+    font-weight: bold;
+    color: rgb(14, 220, 59);
+
+}
+
+/*Elément de type block et inline*/
+#p2{
+    border: 1px solid black;
+}
+
+/*Div et span*/
+.div-para{
+    background-color:#0e46ae;
+    font-weight: bold;
+}
+.span1{
+    color: rgb(218, 121, 17);
+}
+
+/*font family*/
+
+#p3{
+    font-family: "Century Gothic", Verdana, sans-serif ;
+}
+
+
+/*font size, font style et font weight*/
+#p4{
+    font-size: 150%;
+    font-style: oblique;
+    font-weight: 700;
+}
+
+/*Couleur et opacyté*/
+.p2{
+    color: rgb(255, 000, 000); /*color: #FF0000;*/
+    opacity: 0.5; 
+}
+
+/*Propétés text*/
+.p3{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 0px 0px 7px;
+}
+.p4{
+    text-align: right;
+    text-transform: lowercase;
+    text-decoration: overline;
+}
+.p5{
+    text-transform: capitalize;
+    text-decoration: line-through;
+    text-indent: 10% ;
+    text-shadow: 3px 3px 4px #444 ;
+}
+.p6{
+    text-shadow: -3px 3px 4px;
+}
+#a1{
+    text-decoration: none;
+}
+
+/*Espace : line height, letter spacing et word spacing*/
+.p7{
+    letter-spacing: 2px;
+    word-spacing: 10px; 
+
+}
+
+.p8{
+    letter-spacing: -20px;
+    text-align: right;
+}
+
+/*boite en css, width, height, padding, border, et margin*/
+.div1{
+    text-align: center;
+    background-color: rgb(2, 24, 75);
+    width: 5O0px;
+    padding: 30px;
+    border: 20px solid #444;
+    margin: 50px;
+}
+.div2{
+    height: 400px;
+    width: 500px;
+    background-color: rgb(189, 27, 76) ;
+}
+.p11{
+    height: 100px;
+    width: 400px;
+    padding: 30px;
+    background-color: rgb(111, 76, 11);
+}
+
+/*bordure en Css*/
+.div3{
+    height: 400px;
+    width: 500px;
+    background-color: #088;
+    border: 20px ridge black;
+    border-radius: 15px;
+    padding: 100px 20px 50px 130px ;
+    margin: 100px 20px 50px 130px;
+}
+
+.p13{height: 100px;
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(111, 76, 11);
+    border-width: 2px;
+    border-style: inset; 
+    border-color: yellow ;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-top: 120px;
+    padding-left: 50px;
+    margin-top: 100px;
+    margin: 0 auto;
+}
+/*box shadown*/
+.div4{
+    height: 400px;
+    width: 500px;
+    background-color: #088;
+    border: 20px ridge black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.p14{
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+    border-width: 2px;
+    border-style: inset;
+    border-color: yellow;
+    box-shadow: 4px 3px 7px black inset;
+}
+
+.div6{
+    
+    background-color: orange;
+    position: relative;
+    width: 400px;
+    height: 200px;
+    float: left;
+    text-align: center;
+}
+
+.ggg{
+    float: left;
+}
+
+.div6{
+    float: left;
+    width: 400px;
+    height: 400px;
+    background: -webkit-linear-gradient(left, blue, purple, red) ;
+    background: -o-linear-gradient(right, blue, purple, red) ;
+    background: -moz-linear-gradient(right, blue, purple, red) ;
+    background: linear-gradient(to right, blue, purple, red) ;
+}
+
+.div7{
+    float: right;
+    width: 400px;
+    height: 400px;
+    background: -webkit-radial-gradient(circle, blue, purple, red) ;
+    background: -o-radial-gradient(circle, blue, purple, red);
+    background: -moz-radial-gradient(circle, blue, purple, red) ;
+    background: radial-gradient(circle, blue, purple, red) ;
+}
+
+.mp{
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 1px solid black;
+    padding: 10px;
+}
+th{
+    background-color: rgb(14, 220, 59);
+}
+th{
+    background-color: RGB(110, 200, 40);
+    font-weight: normal;
+}   
+.paire{
+    background-color: orange;
+}
+
+.impaire{
+    background-color: green;
+}
+
+.mp1{
+border-collapse: collapse;
+}
+
+th, tfoot td{
+    background-color: RGB(110, 200, 40);
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+    thead td, th{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th{
+    font-weight: normal;
+}
+
+tr:nth-child(even) {
+    background-color : #EEE;
+}
+
+tr:nth-child(odd) {
+    background-color : #CCC;
+}
+#SS{
+   padding: 10px;
+   border: 1px solid#ccc;
+   box-shadow: 0px 0px 17px #1329a7;
+
+}
+
+
